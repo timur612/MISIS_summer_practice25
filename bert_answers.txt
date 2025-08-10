@@ -1,0 +1,35 @@
+Original Text: При θk> 0, уменьшение переменной sk целевая функция оптимизируется.
+True Formula Phareses: θk, переменная sk
+Predicted Formula Phrases: ['θk', '##я функция']
+
+Original Text: Функция является µ-сильно выпуклой тогда и только тогда, когда f(y) ≥ f(x) и ∇f(x)T(y − x) и µ 2 ∥y − x∥2.
+True Formula Phareses: µ-сильно выпуклая функция, f(y) ≥ f(x)
+Predicted Formula Phrases: ['Функция']
+
+Original Text: В точке условного минимума x∗, градиент функции ∇f(x∗) ортогонален TxM.
+True Formula Phareses: точка условного минимума x∗, касательное пространство TxM
+Predicted Formula Phrases: ['градиент функции ∇f ( x∗ )']
+
+Original Text: Когда αk> 0, уменьшение переменной zk снижает значение целевой функции.
+True Formula Phareses: αk, переменная zk
+Predicted Formula Phrases: ['##k']
+
+Original Text: Ограничение ⟨w, x⟩+ b ≥ 0 становится неактивным, когда соответствующая двойственная переменная µ равна нулю или когда x лежит строго внутри соответствующего полупространства.
+True Formula Phareses: Ограничение ⟨w, x⟩+ b ≥ 0, двойственная переменная µ
+Predicted Formula Phrases: ['Ограничение ⟨ w', 'x ⟩ + b ≥ 0', 'со', '##ющая', 'двойственная переменная µ']
+
+Original Text: Метод Ньютона xk+1= xk−[∇2f(xk)]−1∇f(xk) имеет квадратичную сходимость при ∇2f(x∗) ≻ 0.
+True Formula Phareses: Метод Ньютона, матрица Гессе ∇2f(xk)
+Predicted Formula Phrases: ['Метод Ньютона xk + 1 = xk−']
+
+Original Text: Если последовательность{xn} монотонна и ограничена, то она сходится к некоторому пределу.
+True Formula Phareses: последовательность{xn}, предел
+Predicted Formula Phrases: ['последовательность { xn }']
+
+Original Text: Система Ax= b совместна тогда и только тогда, когда b ∈ range(A).
+True Formula Phareses: Система Ax= b, range(A)
+Predicted Formula Phrases: ['Система Ax = b']
+
+Test F1:0.9418516159057617
+Test Precision:0.943142294883728
+Test Recall:0.9411765336990356
