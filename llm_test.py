@@ -4,7 +4,7 @@ import json
 from openai import OpenAI
 from langchain.prompts import PromptTemplate
 
-api_key = "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" 
+api_key = "my_api_key"  # Replace with your actual openrouter API key
 
 llm_client = OpenAI(
   base_url="https://openrouter.ai/api/v1",
